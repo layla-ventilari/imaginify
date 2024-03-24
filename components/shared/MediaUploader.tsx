@@ -24,13 +24,13 @@ const MediaUploader = ({
     const { toast } = useToast()
 
     const onUploadSuccessHandler = (result: any) => {
-        setImage((prevState: any) => ({
-            ...prevState,
-            publicId: result?.info.public_id,
-            width: result?.info?.width,
-            height: result?.info.height,
-            secureUrl: result?.info.public_url
-        }))
+      setImage((prevState: any) => ({
+        ...prevState,
+        publicId: result?.info?.public_id,
+        width: result?.info?.width,
+        height: result?.info?.height,
+        secureURL: result?.info?.secure_url
+      }))
 
         onValueChange(result?.info?.public_id)
 
