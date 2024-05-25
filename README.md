@@ -1,4 +1,4 @@
-# Lavent.AI text-to-image 🎨✨
+# Lavent.AI SaaS 🎨✨
 This project is a SaaS application developed using modern technologies including Next.js, Tailwind CSS, MongoDB, and more. Imaginify is designed to provide a seamless and efficient experience for users with a focus on accessibility and performance. 
 
 ## 🚀 Features
